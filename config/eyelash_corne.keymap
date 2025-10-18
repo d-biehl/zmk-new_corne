@@ -64,7 +64,7 @@
             bindings = <&kp ESC>;
             key-positions = <0 1>;
             layers = <0>;
-        }
+        };
     };
 
     keymap {
