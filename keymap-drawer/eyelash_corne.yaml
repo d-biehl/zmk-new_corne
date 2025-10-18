@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Numbers}
   - {t: '$$mdi:apple-keyboard-option$$', h: Fn}
   Symbols:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+`, s: Sft+~}
   - '!'
   - '@'
   - '#'
@@ -62,7 +62,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', s: _}
+  - {t: Sft+-, s: Sft+_}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
@@ -90,7 +90,7 @@ layers:
   - +
   - {t: AltGr+7, s: AltGr+&}
   - {t: AltGr+0, s: AltGr+)}
-  - '|'
+  - {t: Sft+-, s: Sft+_}
   - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
