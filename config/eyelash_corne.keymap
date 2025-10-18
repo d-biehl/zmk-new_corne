@@ -52,7 +52,7 @@
         hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <300>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
@@ -69,7 +69,7 @@
         hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <300>;
             quick-tap-ms = <200>;
             require-prior-idle-ms = <125>;
