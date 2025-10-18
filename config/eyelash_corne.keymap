@@ -130,10 +130,10 @@
         winsym {
             display-name = "SYMBOL";
             bindings = <
-&none  &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK   &kp LPAR    &kp RPAR       &kp MINUS
-&none  &none     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp RA(N8)  &kp RA(N9)  &kp RA(MINUS)  &kp GRAVE
-&none  &none     &none      &none      &none      &mkp MB5   &none                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp RA(N7)  &kp RA(N0)  &kp PIPE       &kp TILDE
-                            &none      &none      &none                                                                &none      &none      &none
+&kp LS(GRAVE)  &kp EXCL  &kp AT     &kp HASH   &kp DLLR   &kp PRCNT                           &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK   &kp LPAR    &kp RPAR       &kp LS(MINUS)
+&none          &none     &mkp LCLK  &mkp MCLK  &mkp RCLK  &mkp MB4            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp RA(N8)  &kp RA(N9)  &kp RA(MINUS)  &kp GRAVE
+&none          &none     &none      &none      &none      &mkp MB5   &none                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp RA(N7)  &kp RA(N0)  &kp LS(MINUS)  &kp TILDE
+                                    &none      &none      &none                                                                &none      &none      &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
