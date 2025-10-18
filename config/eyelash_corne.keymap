@@ -143,10 +143,10 @@
         winnum {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1            &kp N2    &kp N3        &kp N4  &kp N5                            &mmv MOVE_UP                     &kp N6   &kp N7          &kp N8          &kp N9           &kp N0       &kp MINUS
-&trans  &kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &trans  &trans            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INS  &trans          &kp UP_ARROW    &trans           &kp HOME     &kp PAGE_UP
-&trans  &trans            &trans    &trans        &trans  &trans  &trans                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(END)  &kp PAGE_DOWN
-                                    &trans        &trans  &mo 4                                                              &mo 4    &trans          &trans
+&trans  &kp N1            &kp N2    &kp N3        &kp N4  &kp N5                                   &mmv MOVE_UP                     &kp N6   &kp N7          &kp N8          &kp N9           &kp N0         &kp MINUS
+&trans  &kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &trans  &trans                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INS  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none
+&trans  &trans            &trans    &trans        &trans  &kp BACKSPACE  &trans                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none
+                                    &trans        &trans  &mo 4                                                                     &mo 4    &trans          &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
