@@ -8,7 +8,7 @@ layers:
   - R
   - T
   - $$mdi:arrow-up-bold$$
-  - Y
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
   - U
   - I
   - O
@@ -30,7 +30,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - Symbols
-  - Z
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
   - X
   - C
   - V
