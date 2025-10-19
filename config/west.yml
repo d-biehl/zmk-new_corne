@@ -6,6 +6,8 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
+    - name: joelspadin
+      url-base: https://github.com/joelspadin
   projects:
     - name: eyelash_corne
       url: https://github.com/d-biehl/zmk-new_corne
