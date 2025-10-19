@@ -156,10 +156,10 @@
         winnum {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1            &kp N2    &kp N3        &kp N4          &kp N5                           &mmv MOVE_UP                     &kp N6   &kp N7          &kp N8          &kp N9           &kp N0         &kp DE_ESZETT
-&trans  &kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &none            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INS  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none
-&trans  &none             &none     &none         &none           &none   &none                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
-                                    &none         &none           &mo 4                                                             &mo 4    &none           &kp RALT
+&trans  &kp N1            &kp N2    &kp N3        &kp N4          &kp N5                               &mmv MOVE_UP                     &kp N6   &kp N7          &kp N8          &kp N9           &kp N0         &kp DE_ESZETT
+&trans  &kp LEFT_CONTROL  &kp LGUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INS  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp BACKSPACE
+&trans  &none             &none     &none         &kp K_BACK      &kp K_NEXT  &none                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+                                    &none         &none           &mo 4                                                                 &mo 4    &none           &kp RALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
