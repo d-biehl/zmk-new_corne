@@ -113,10 +113,10 @@ layers:
   - {t: '0', s: )}
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -250,10 +250,13 @@ combos:
   k: '&soft_off'
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [Windows]
+  l: [Windows, Numbers, Symbols, Fn]
 - p: [38, 39]
-  k: Sft+,
+  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN)))
   l: [Windows]
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [Windows, Numbers, Symbols]
+- p: [39, 40]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  l: [Windows]
