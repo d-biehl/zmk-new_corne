@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - DE U UMLAUT
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
   - '&td0'
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -27,8 +27,8 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: RGUI}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: DE O UMLAUT, h: '$$mdi:apple-keyboard-control$$'}
-  - DE A UMLAUT
+  - '&hmr RCTRL (ZMK_HID_USAGE(HID_USAGE_KEY, HID_USAGE_KEY_KEYBOARD_SEMICOLON_AND_COLON))'
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
