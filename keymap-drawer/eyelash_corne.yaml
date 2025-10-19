@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - SV A RING
+  - DE U UMLAUT
   - '&td0'
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -27,8 +27,8 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: RGUI}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: SV O UMLAUT, h: '$$mdi:apple-keyboard-control$$'}
-  - SV A UMLAUT
+  - {t: DE O UMLAUT, h: '$$mdi:apple-keyboard-control$$'}
+  - DE A UMLAUT
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
