@@ -157,7 +157,7 @@
             bindings = <
 &kp DE_CARET  &kp N1            &kp N2    &kp N3        &kp N4          &kp N5                                  &mmv MOVE_UP                     &kp N6   &kp N7          &kp N8          &kp N9           &kp N0         &kp DE_ESZETT
 &trans        &sk LEFT_CONTROL  &sk LGUI  &sk LEFT_ALT  &sk LEFT_SHIFT  &none                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INS  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp BACKSPACE
-&trans        &none             &none     &none         &none           &kp BACKSPACE  &none                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans        &none             &none     &kp K_PREV    &kp K_NEXT      &kp BACKSPACE  &none                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
                                           &trans        &sl 3           &trans                                                                   &trans   &trans          &trans
             >;
 
