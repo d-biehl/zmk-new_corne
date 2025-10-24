@@ -8,16 +8,21 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     # - name: joelspadin
     #   url-base: https://github.com/joelspadin
+    - name: dsifry #new entry
+      url-base: https://github.com/dsifry #new entry
   projects:
     - name: eyelash_corne
       url: https://github.com/d-biehl/zmk-new_corne
       revision: main
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: v0.3
       import: app/west.yml
     # - name: zmk-locales
     #   remote: joelspadin
     #   revision: main
+    - name: nice-view-mod
+      remote: dsifry
+      revision: main
   self:
     path: config
