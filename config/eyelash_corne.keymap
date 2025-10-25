@@ -81,20 +81,6 @@
             hold-trigger-key-positions = <25 24>;
             hold-trigger-on-release;
         };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <300>;
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <125>;
-            bindings = <&kp>, <&kp>;
-
-            hold-trigger-key-positions = <14>;
-            hold-trigger-on-release;
-            label = "NEW_BEHAVIOR";
-        };
     };
 
     rgb_encoder: rgb_encoder {
