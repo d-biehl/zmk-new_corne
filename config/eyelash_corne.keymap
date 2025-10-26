@@ -113,7 +113,7 @@
 
         Semicolon {
             bindings = <&kp DE_SEMICOLON>;
-            key-positions = <38 39>;
+            key-positions = <38 37>;
             layers = <0>;
         };
 
@@ -125,13 +125,19 @@
 
         DoubleColon {
             bindings = <&kp DE_COLON>;
-            key-positions = <39 40>;
+            key-positions = <39 38>;
             layers = <0>;
         };
 
         layer3 {
             bindings = <&sl 3>;
             key-positions = <43 44>;
+            layers = <0>;
+        };
+
+        underscore {
+            bindings = <&kp DE_UNDERSCORE>;
+            key-positions = <39 40>;
             layers = <0>;
         };
     };
