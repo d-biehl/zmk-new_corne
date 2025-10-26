@@ -79,10 +79,10 @@ layers:
   - PgUp
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PREV
-  - NEXT
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - AC BACK
+  - AC FORWARD
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -163,7 +163,7 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - PAUSE BREAK
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
