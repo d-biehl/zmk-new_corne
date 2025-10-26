@@ -251,15 +251,18 @@ combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
   l: [Windows, Numbers, Symbols, Fn]
-- p: [38, 39]
+- p: [38, 37]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN)))
   l: [Windows]
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [Windows, Numbers, Symbols]
-- p: [39, 40]
+- p: [39, 38]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   l: [Windows]
 - p: [43, 44]
   k: {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
+  l: [Windows]
+- p: [39, 40]
+  k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   l: [Windows]

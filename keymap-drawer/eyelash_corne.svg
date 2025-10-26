@@ -579,9 +579,9 @@ rect.held, rect.combo.held {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
-<text x="812" y="143" class="combo tap">
-<tspan x="812" dy="-0.6em" style="font-size: 86%">(LS(ZMK</tspan><tspan x="812" dy="1.2em" style="font-size: 86%">…</tspan>
+<rect rx="6" ry="6" x="742" y="130" width="28" height="26" class="combo"/>
+<text x="756" y="143" class="combo tap">
+<tspan x="756" dy="-0.6em" style="font-size: 86%">(LS(ZMK</tspan><tspan x="756" dy="1.2em" style="font-size: 86%">…</tspan>
 </text>
 </g>
 <g class="combo backspace combopos-3">
@@ -589,9 +589,9 @@ rect.held, rect.combo.held {
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="915" y="40" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
 <g class="combo combopos-4">
-<rect rx="6" ry="6" x="854" y="141" width="28" height="26" class="combo"/>
-<text x="868" y="154" class="combo tap">
-<tspan x="868" dy="-0.6em" style="font-size: 86%">(LS(ZMK</tspan><tspan x="868" dy="1.2em" style="font-size: 86%">…</tspan>
+<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
+<text x="812" y="143" class="combo tap">
+<tspan x="812" dy="-0.6em" style="font-size: 86%">(LS(ZMK</tspan><tspan x="812" dy="1.2em" style="font-size: 86%">…</tspan>
 </text>
 </g>
 <g class="combo combopos-5">
@@ -599,6 +599,12 @@ rect.held, rect.combo.held {
 <a href="#Fn">
 <text x="317" y="217" class="combo tap layer-activator">Fn</text>
 </a><use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="309" y="213" height="15" width="15.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="854" y="141" width="28" height="26" class="combo"/>
+<text x="868" y="154" class="combo tap">
+<tspan x="868" dy="-0.6em" style="font-size: 86%">(LS(ZMK</tspan><tspan x="868" dy="1.2em" style="font-size: 86%">…</tspan>
+</text>
 </g>
 </g>
 </g>
