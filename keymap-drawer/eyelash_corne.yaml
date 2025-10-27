@@ -79,8 +79,8 @@ layers:
   - PgUp
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AC BACK
   - AC FORWARD
   - {t: '$$mdi:backspace$$', type: backspace}
