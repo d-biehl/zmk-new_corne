@@ -214,9 +214,9 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB           &kp X            &kp V            &kp L            &kp C  &kp W                              &kp UP               &kp K       &kp H  &kp G         &kp F       &kp Q  &kp DE_ESZETT
-&kp LEFT_CONTROL  &kp U            &kp I            &kp A            &kp E  &kp O                    &kp LEFT  &kp RET   &kp RIGHT  &kp S       &kp N  &kp R         &kp T       &kp D  &kp Y
+&kp LEFT_CONTROL  &kp U            &hml I LEFT_WIN  &kp A            &kp E  &kp O                    &kp LEFT  &kp RET   &kp RIGHT  &kp S       &kp N  &kp R         &kp T       &kp D  &kp Y
 &mo 6             &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P  &kp Z      &kp C_MUTE              &kp DOWN             &kp B       &kp M  &kp DE_COMMA  &kp DE_DOT  &kp J  &mo 6
-                                                    &kp LEFT_ALT     &mo 1  &kp SPACE                                               &kp RETURN  &mo 2  &mo 3
+                                                    &kp LEFT_ALT     &mo 1  &kp SPACE                                               &kp RETURN  &mo 7  &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -233,6 +233,17 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        NeoE3 {
+            bindings = <
+&trans  &trans            &kp DE_UNDERSCORE  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_CARET                    &trans          &kp DE_EXCLAMATION  &kp DE_LESS_THAN         &kp DE_GREATER_THAN       &kp DE_EQUAL         &kp DE_AMPERSAND  &trans
+&trans  &kp DE_BACKSLASH  &kp DE_SLASH       &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE    &kp DE_STAR             &trans  &trans  &trans  &kp DE_QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS         &kp DE_COLON      &kp DE_AT
+&trans  &kp DE_HASH       &kp DE_DOLLAR      &kp DE_PIPE          &kp DE_TILDE          &kp DE_GRAVE  &trans            &trans          &kp DE_PLUS         &kp DE_PERCENT           &kp DE_DOUBLE_QUOTES      &kp DE_SINGLE_QUOTE  &kp DE_SEMICOLON  &trans
+                                             &trans               &trans                &trans                                          &trans              &trans                   &trans
+            >;
+
+            label = "NeoE3";
         };
     };
 };
