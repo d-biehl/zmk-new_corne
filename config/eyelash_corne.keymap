@@ -211,7 +211,7 @@
 
         Neo {
             label = "Neo";
-            display-name = "QWERTY";
+            display-name = "Neo";
             bindings = <
 &kp TAB           &kp X            &kp V            &kp L            &kp C  &kp W                              &kp UP               &kp K       &kp H  &kp G         &kp F       &kp Q  &kp DE_ESZETT
 &kp LEFT_CONTROL  &kp U            &hml I LEFT_WIN  &kp A            &kp E  &kp O                    &kp LEFT  &kp RET   &kp RIGHT  &kp S       &kp N  &kp R         &kp T       &kp D  &kp Y
@@ -224,7 +224,7 @@
 
         NeoE2 {
             label = "NeoE2";
-            display-name = "QWERTY";
+            display-name = "NeoE2";
             bindings = <
 &kp TAB           &kp LS(X)            &kp LS(V)            &kp LS(L)            &kp LS(C)  &kp LS(W)                          &kp UP               &kp LS(K)  &kp LS(H)  &kp LS(G)     &kp LS(F)   &kp LS(Q)  &kp DE_CAPITAL_ESZETT
 &kp LEFT_CONTROL  &kp LS(U)            &kp LS(I)            &kp LS(A)            &kp LS(E)  &kp LS(O)                &kp LEFT  &kp RET   &kp RIGHT  &kp LS(S)  &kp LS(N)  &kp LS(R)     &kp LS(T)   &kp LS(D)  &kp LS(Y)
@@ -236,6 +236,8 @@
         };
 
         NeoE3 {
+            label = "NeoE3";
+            display-name = "NeoE3";
             bindings = <
 &trans  &trans            &kp DE_UNDERSCORE  &kp DE_LEFT_BRACKET  &kp DE_RIGHT_BRACKET  &kp DE_CARET                    &trans          &kp DE_EXCLAMATION  &kp DE_LESS_THAN         &kp DE_GREATER_THAN       &kp DE_EQUAL         &kp DE_AMPERSAND  &trans
 &trans  &kp DE_BACKSLASH  &kp DE_SLASH       &kp DE_LEFT_BRACE    &kp DE_RIGHT_BRACE    &kp DE_STAR             &trans  &trans  &trans  &kp DE_QUESTION     &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_MINUS         &kp DE_COLON      &kp DE_AT
@@ -243,7 +245,6 @@
                                              &trans               &trans                &trans                                          &trans              &trans                   &trans
             >;
 
-            label = "NeoE3";
         };
     };
 };
