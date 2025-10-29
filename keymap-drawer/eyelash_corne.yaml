@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  Windows:
+  QWERTZ:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -178,9 +178,9 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
+  - {t: QWERTZ, h: toggle}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: QWERTY, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -245,24 +245,73 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  QWERTY:
+  - $$mdi:keyboard-tab$$
+  - Sft+X
+  - Sft+V
+  - Sft+L
+  - Sft+C
+  - Sft+W
+  - $$mdi:arrow-up-bold$$
+  - Sft+K
+  - Sft+H
+  - Sft+G
+  - Sft+F
+  - Sft+Q
+  - ((RA(LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))))
+  - $$mdi:apple-keyboard-control$$
+  - Sft+U
+  - Sft+I
+  - Sft+A
+  - Sft+E
+  - Sft+O
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - Sft+S
+  - Sft+N
+  - Sft+R
+  - Sft+T
+  - Sft+D
+  - Sft+Y
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
+  - Sft+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - Sft+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
+  - Sft+(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - Sft+P
+  - Sft+Z
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - Sft+B
+  - Sft+M
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  - Sft+J
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [Windows, Numbers, Symbols, Fn]
+  l: [QWERTZ, Numbers, Symbols, Fn]
 - p: [38, 37]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN)))
-  l: [Windows]
+  l: [QWERTZ]
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [Windows, Numbers, Symbols]
+  l: [QWERTZ, Numbers, Symbols]
 - p: [39, 38]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
-  l: [Windows]
+  l: [QWERTZ]
 - p: [43, 44]
   k: {t: Fn, h: '$$mdi:gesture-tap-hold$$'}
-  l: [Windows]
+  l: [QWERTZ]
 - p: [39, 40]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
-  l: [Windows]
+  l: [QWERTZ]
