@@ -49,6 +49,55 @@ layers:
   - RETURN
   - Symbols
   - Fn
+  Neo:
+  - $$mdi:keyboard-tab$$
+  - X
+  - V
+  - L
+  - C
+  - W
+  - $$mdi:arrow-up-bold$$
+  - K
+  - H
+  - G
+  - F
+  - Q
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
+  - $$mdi:apple-keyboard-control$$
+  - U
+  - {t: LEFT WIN, h: I}
+  - A
+  - E
+  - O
+  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:arrow-right-bold$$
+  - S
+  - N
+  - R
+  - T
+  - D
+  - Y
+  - NeoE2
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - P
+  - Z
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - B
+  - M
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  - J
+  - NeoE2
+  - $$mdi:apple-keyboard-option$$
+  - Numbers
+  - $$mdi:keyboard-space$$
+  - RETURN
+  - NeoE3
+  - Fn
   Numbers:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -245,55 +294,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  Neo:
-  - $$mdi:keyboard-tab$$
-  - X
-  - V
-  - L
-  - C
-  - W
-  - $$mdi:arrow-up-bold$$
-  - K
-  - H
-  - G
-  - F
-  - Q
-  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
-  - $$mdi:apple-keyboard-control$$
-  - U
-  - {t: LEFT WIN, h: I}
-  - A
-  - E
-  - O
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
-  - S
-  - N
-  - R
-  - T
-  - D
-  - Y
-  - NeoE2
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
-  - P
-  - Z
-  - $$mdi:volume-off$$
-  - $$mdi:arrow-down-bold$$
-  - B
-  - M
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
-  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
-  - J
-  - NeoE2
-  - $$mdi:apple-keyboard-option$$
-  - Numbers
-  - $$mdi:keyboard-space$$
-  - RETURN
-  - NeoE3
-  - Fn
   NeoE2:
   - $$mdi:keyboard-tab$$
   - Sft+X
