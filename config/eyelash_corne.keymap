@@ -108,7 +108,7 @@
         esc {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
-            layers = <0 2 3 4>;
+            layers = <0 2 3 1 6 7>;
         };
 
         Semicolon {
@@ -120,7 +120,7 @@
         Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <11 12>;
-            layers = <0 2 3>;
+            layers = <0 2 3 1 6 7>;
         };
 
         DoubleColon {
