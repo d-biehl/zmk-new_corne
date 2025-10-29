@@ -397,13 +397,13 @@ combos:
   k: '&soft_off'
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [QWERTZ, Numbers, Symbols, Fn]
+  l: [QWERTZ, Numbers, Symbols, Neo, NeoE2, NeoE3]
 - p: [38, 37]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN)))
   l: [QWERTZ]
 - p: [11, 12]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [QWERTZ, Numbers, Symbols]
+  l: [QWERTZ, Numbers, Symbols, Neo, NeoE2, NeoE3]
 - p: [39, 38]
   k: (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
   l: [QWERTZ]
