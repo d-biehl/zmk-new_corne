@@ -163,7 +163,7 @@
             display-name = "Neo";
             bindings = <
 &kp TAB           &kp X            &kp V            &kp L            &kp C  &kp W                              &kp UP               &kp K       &kp H  &kp G         &kp F       &kp Q  &kp DE_ESZETT
-&kp LEFT_CONTROL  &kp U            &hml I LEFT_WIN  &kp A            &kp E  &kp O                    &kp LEFT  &kp RET   &kp RIGHT  &kp S       &kp N  &kp R         &kp T       &kp D  &kp Y
+&kp LEFT_CONTROL  &kp U            &hml LEFT_WIN I  &kp A            &kp E  &kp O                    &kp LEFT  &kp RET   &kp RIGHT  &kp S       &kp N  &kp R         &kp T       &kp D  &kp Y
 &mo 6             &kp DE_U_UMLAUT  &kp DE_O_UMLAUT  &kp DE_A_UMLAUT  &kp P  &kp Z      &kp C_MUTE              &kp DOWN             &kp B       &kp M  &kp DE_COMMA  &kp DE_DOT  &kp J  &mo 6
                                                     &kp LEFT_ALT     &mo 2  &kp SPACE                                               &kp RETURN  &mo 7  &mo 4
             >;
