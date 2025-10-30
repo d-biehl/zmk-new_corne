@@ -65,7 +65,7 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD MINUS AND UNDERSCORE)))
   - $$mdi:apple-keyboard-control$$
   - U
-  - {t: LEFT WIN, h: I}
+  - {t: I, h: LEFT WIN}
   - A
   - E
   - O
