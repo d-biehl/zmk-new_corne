@@ -49,7 +49,7 @@ layers:
   - RETURN
   - Symbols
   - Fn
-  QWERTY:
+  QWERT2:
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -277,7 +277,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - {t: QWERTZ, h: toggle}
-  - {t: QWERTY, h: toggle}
+  - {t: QWERT2, h: toggle}
   - {t: Neo, h: toggle}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:volume-off$$
