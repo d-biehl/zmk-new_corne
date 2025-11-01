@@ -229,7 +229,7 @@
             bindings = <
 &kp ESC  &kp F1           &kp F2  &kp F3     &kp F4     &kp F5                                       &mmv MOVE_UP                     &kp F6      &kp F7          &kp F8          &kp F9           &kp F10        &kp F11
 &trans   &kp PAUSE_BREAK  &none   &mkp MCLK  &mkp RCLK  &mkp MB4                     &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INSERT  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp F12
-&trans   &kp PRINTSCREEN  &to 0   &none      &to 2      &kp BACKSPACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans   &kp PRINTSCREEN  &to 0   &to 1      &to 2      &kp BACKSPACE  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
                                   &mo 6      &none      &none                                                                         &none       &none           &none
             >;
 
