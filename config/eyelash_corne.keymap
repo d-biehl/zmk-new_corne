@@ -173,7 +173,7 @@
         };
 
         QWERTZ2 {
-            label = "QWERTZw";
+            label = "QWERTZ2";
             display-name = "QWERTY";
             bindings = <
 &kp ESCAPE        &kp Q     &kp W            &kp E         &kp R  &kp T                                                  &kp UP                &kp DE_Z    &kp U  &kp I             &kp O             &kp P            &kp DE_U_UMLAUT
