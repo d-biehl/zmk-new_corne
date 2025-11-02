@@ -95,20 +95,6 @@
             label = "SHIFT_SPACE";
             hold-trigger-key-positions = <44 45>;
         };
-
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <300>;
-            quick-tap-ms = <200>;
-            require-prior-idle-ms = <125>;
-            bindings = <&kp>, <&kp>;
-
-            hold-trigger-key-positions = <15 14 16>;
-            hold-trigger-on-release;
-            label = "NEW_BEHAVIOR";
-        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -167,6 +153,15 @@
             bindings = <&kp DE_UNDERSCORE>;
             key-positions = <39 40>;
             layers = <1>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
         };
     };
 
