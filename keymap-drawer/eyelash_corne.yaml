@@ -289,11 +289,11 @@ layers:
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - Misc
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {type: held alternate}
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   Misc:
   - '&studio_unlock'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
