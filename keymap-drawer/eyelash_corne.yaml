@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - Numbers
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - Symbols
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: Symbols}
   - Fn
   QWERTZ:
   - $$mdi:keyboard-tab$$
