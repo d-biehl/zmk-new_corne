@@ -109,6 +109,13 @@
             label = "MO_KP_HOLD_TAP";
             hold-trigger-key-positions = <46>;
         };
+
+        numpad_dance: numpad_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "NUMPAD_DANCE";
+            #binding-cells = <0>;
+            bindings = <&mo 9>, <&tog 9>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -170,15 +177,6 @@
         };
     };
 
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -227,7 +225,7 @@
 &kp ESCAPE  &kp N1            &kp N2    &kp N3         &kp N4            &kp N5                                  &mmv MOVE_UP                     &kp N6   &kp N7          &kp N8          &kp N9           &kp N0         &kp DE_ESZETT
 &trans      &sk LEFT_CONTROL  &sk LGUI  &sk LEFT_ALT   &sk LEFT_SHIFT    &none                   &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp INS  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &kp BACKSPACE
 &trans      &none             &none     &kp C_AC_BACK  &kp C_AC_FORWARD  &kp BACKSPACE  &none                    &mmv MOVE_DOWN                   &kp DEL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
-                                        &mo 9          &trans            &trans                                                                   &trans   &trans          &sk RIGHT_ALT
+                                        &numpad_dance  &trans            &trans                                                                   &trans   &trans          &sk RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -298,7 +296,7 @@
 
         numpad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &kp KP_NUMLOCK   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp KP_MULTIPLY
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &kp KP_PLUS
 &trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &kp KP_ENTER
                         &trans  &trans  &trans                                    &trans           &trans           &trans
