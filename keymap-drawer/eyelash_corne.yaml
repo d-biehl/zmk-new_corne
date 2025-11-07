@@ -483,7 +483,7 @@ layers:
   - KP 2
   - KP 3
   - KP DOT
-  - KP ENTER
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
