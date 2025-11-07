@@ -190,7 +190,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - numpad
+  - '&numpad_dance'
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -449,7 +449,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUMLOCK
   - KP 7
   - KP 8
   - KP 9
@@ -484,8 +484,8 @@ layers:
   - KP 3
   - KP DOT
   - KP ENTER
-  - {type: held}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
