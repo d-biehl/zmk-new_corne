@@ -288,8 +288,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - Misc
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Misc, type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -337,8 +337,8 @@ layers:
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - RGB COLOR HSB(231,38,46)
   - RGB COLOR HSB(0,100,40)
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
